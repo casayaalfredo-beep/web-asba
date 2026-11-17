@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  }
+}
+
+/* Utilidades personalizadas para el tema institucional ASBA */
+.bg-asba-green {
+  background-color: #1B4D3E;
+}
+.bg-asba-green-dark {
+  background-color: #12352B;
+}
+.text-asba-green {
+  color: #1B4D3E;
+}
+.border-asba-green {
+  border-color: #1B4D3E;
+}
