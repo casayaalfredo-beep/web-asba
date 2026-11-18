@@ -1,21 +1,68 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
-    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    overflow-x: hidden;
   }
 }
 
-/* Utilidades personalizadas para el tema institucional ASBA */
+/* Utilidades personalizadas para el tema institucional ASBA Moderno */
 .bg-asba-green {
-  background-color: #1B4D3E;
+  background-color: #0f3d2e;
 }
 .bg-asba-green-dark {
-  background-color: #12352B;
+  background-color: #072219;
 }
 .text-asba-green {
-  color: #1B4D3E;
+  color: #0f3d2e;
 }
 .border-asba-green {
-  border-color: #1B4D3E;
+  border-color: #0f3d2e;
+}
+
+/* Patrón de fondo sutil moderno */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-light-grid {
+  background-image: radial-gradient(rgba(15, 61, 46, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Efectos de elevación y tarjetas modernas */
+.card-modern {
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 4px 24px -4px rgba(15, 23, 42, 0.04), 0 2px 8px -2px rgba(15, 23, 42, 0.02);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-modern:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -12px rgba(15, 61, 46, 0.12), 0 4px 16px -4px rgba(15, 23, 42, 0.05);
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+/* Scrollbar moderno */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f3d2e;
 }

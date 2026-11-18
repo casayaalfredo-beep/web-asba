@@ -14,8 +14,8 @@ create table if not exists public.asba_config (
   nombre_oficial text not null default 'Asociación de Bananeros San Luis',
   fundacion text not null default 'Septiembre de 1987',
   fundador text not null default 'Primitivo Mamani y productores pioneros',
-  presidente text not null default 'Sr. Máximo Gonzales',
-  telefono_whatsapp text not null default '71777463',
+  presidente text not null default 'Berno Canchi Sullka',
+  telefono_whatsapp text not null default '67525169',
   ubicacion text not null default 'Comunidad San Luis, Central Ibuelo, Municipio de Shinahota, Cochabamba - Bolivia',
   variedad_principal text not null default 'Banano Variedad Williams (Certificación INIAF / MDRyT)',
   pin_directiva text not null default '1987',
@@ -30,7 +30,7 @@ create table if not exists public.asba_noticias (
   resumen text not null,
   contenido text not null,
   fecha_publicacion text not null,
-  autor text not null default 'Directorio ASBA — Pdte. Máximo Gonzales',
+  autor text not null default 'Directorio ASBA — Pdte. Berno Canchi Sullka',
   imagen_key text not null default '14.jpeg',
   destacada boolean not null default false,
   created_at timestamptz not null default now()
@@ -94,8 +94,8 @@ insert into public.asba_config (
   'Asociación de Bananeros San Luis',
   'Septiembre de 1987',
   'Primitivo Mamani y productores pioneros',
-  'Sr. Máximo Gonzales',
-  '71777463',
+  'Berno Canchi Sullka',
+  '67525169',
   'Comunidad San Luis, Central Ibuelo, Municipio de Shinahota, Cochabamba - Bolivia',
   'Banano Variedad Williams (Certificación INIAF / MDRyT)',
   '1987'
@@ -147,7 +147,7 @@ begin
       'En coordinación con el Bachillerato Técnico Humanístico (BTH) de la U.E. San Luis, ASBA inaugura su portal digital para conectar directamente con compradores y ciudadanía.',
       'Celebrando más de 38 años de vida institucional desde nuestra fundación en septiembre de 1987 en la Central Ibuelo (Shinahota), damos un paso histórico hacia la modernización digital. A través de esta plataforma desarrollada por los estudiantes Noel Virreyra Gonzales y Aneth Rocha Otalora bajo la guía de la Prof. Juliet Zapata, visibilizamos el trabajo de nuestra comunidad ante el mundo.',
       '16 de Noviembre, 2026',
-      'Sr. Máximo Gonzales — Presidente ASBA',
+      'Berno Canchi Sullka — Presidente ASBA',
       '14.jpeg',
       true
     );

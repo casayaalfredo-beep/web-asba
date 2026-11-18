@@ -20,7 +20,7 @@ app.get('/api/health', (req, res) => {
     ok: true,
     proyecto: 'Sitio Web Institucional y Comercial ASBA San Luis',
     municipio: 'Shinahota - Central Ibuelo, Cochabamba',
-    presidente: 'Sr. Máximo Gonzales (+591 71777463)',
+    presidente: 'Berno Canchi Sullka (+591 67525169)',
     supabase: SUPABASE_URL,
     timestamp: new Date().toISOString()
   });

@@ -4,7 +4,7 @@
 > **Unidad Educativa San Luis (Shinahota, Trópico de Cochabamba)**  
 > **Estudiantes:** Noel Virreyra Gonzales & Aneth Rocha Otalora  
 > **Docente Guía:** Prof. Juliet Zapata  
-> **Asociación Beneficiaria:** Asociación de Bananeros San Luis (ASBA) — Pdte. Máximo Gonzales (+591 71777463)
+> **Asociación Beneficiaria:** Asociación de Bananeros San Luis (ASBA) — Pdte. Berno Canchi Sullka (Cel. 67525169)
 
 ---
 
@@ -12,7 +12,7 @@
 
 Esta aplicación está optimizada para desplegarse como un **Static Site** en **Render.com** a costo **$0 USD**, con disponibilidad 24/7 y sin tiempos de espera en frío (*never sleeps*).
 
-* **URL Pública en Render:** `https://asba-sanluis.onrender.com`
+* **URL Pública en Render:** `https://web-asba.onrender.com`
 * **Parámetros de Despliegue:**
   * **Build Command:** `npm install && npm run build`
   * **Publish Directory:** `dist`
